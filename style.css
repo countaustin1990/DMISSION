@@ -1,0 +1,97 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ body {
+    font-family: 'Poppins', sans-serif;
+ }
+ .foto {
+    border-radius: 10px;
+ }
+ .trek {
+    text-transform: uppercase;
+ }
+ .text-details {
+    font-size: 18px;
+ }
+ .boldera {
+    margin-bottom: 50px;
+ }
+ .topmost {
+    border-radius: 10px;
+ }
+ .cook {
+    font-size: 18px;
+ }
+ .tegger {
+    font-size: 18px;
+ }
+ .troll {
+    margin: auto;
+ }
+ .temmer {
+    border-radius: 10px;
+ }
+ #backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    z-index: 1000; /* Ensure it is above other elements */
+}
+.btn-warning:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+    /* Custom CSS for styling */
+   
+   .content-container {
+    margin-bottom: 20px;
+}
+
+.more-text {
+    display: none;
+}
+
+.Navbar-brand {
+    text-transform: uppercase;
+}
+.navbar-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 15px;
+    scroll-padding: 15px;
+}
+/* Custom scrollbar styles for WebKit browsers */
+.navbar-scroll::-webkit-scrollbar {
+    height: 8px; /* Adjust the height of the scrollbar */
+}
+
+.navbar-scroll::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar handle */
+    border-radius: 4px; /* Rounded corners of the scrollbar handle */
+}
+
+.navbar-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #2b2b2b; /* Color of the scrollbar handle on hover */
+}
+.navbar-scroll .nav-item {
+    display: inline-block;
+}
+.navbar-scroll .nav-link {
+    display: inline-block;
+    padding: 1rem;
+}
+.navbar-scroll .bi {
+    font-size: 2rem; /* Increase icon size */
+}
+.rond {
+    text-transform: uppercase;
+}
+.ten {
+    text-transform: uppercase;
+}
